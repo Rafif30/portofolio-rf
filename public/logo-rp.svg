@@ -1,0 +1,21 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rpGradient" x1="14" y1="12" x2="82" y2="84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6AA6FF"/>
+      <stop offset="0.55" stop-color="#7C5CFF"/>
+      <stop offset="1" stop-color="#37E4C7"/>
+    </linearGradient>
+    <linearGradient id="rpStroke" x1="26" y1="26" x2="72" y2="74" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7F9FF"/>
+      <stop offset="1" stop-color="#CFE7FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="80" height="80" rx="24" fill="#0A1324"/>
+  <rect x="9" y="9" width="78" height="78" rx="23" stroke="url(#rpGradient)" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M24 32C24 27.5817 27.5817 24 32 24H57C64.1797 24 70 29.8203 70 37C70 44.1797 64.1797 50 57 50H41V70H32C27.5817 70 24 66.4183 24 62V32Z" fill="url(#rpGradient)" fill-opacity="0.14"/>
+  <path d="M32 25V71" stroke="url(#rpStroke)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M32 28H54C60.6274 28 66 33.3726 66 40C66 46.6274 60.6274 52 54 52H32" stroke="url(#rpStroke)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M49 52L66 69" stroke="url(#rpStroke)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="74" cy="24" r="4" fill="#37E4C7"/>
+  <path d="M23 75H73" stroke="url(#rpGradient)" stroke-opacity="0.45" stroke-width="2" stroke-linecap="round"/>
+</svg>
