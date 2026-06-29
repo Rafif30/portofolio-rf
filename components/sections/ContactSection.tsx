@@ -2,6 +2,7 @@ const contactLinks = [
   { href: "mailto:imamrafif25@gmail.com", label: "imamrafif25@gmail.com" },
   { href: "https://www.linkedin.com/in/imamradrian", label: "LinkedIn", external: true },
   { href: "https://github.com/Rafif30", label: "GitHub", external: true },
+  { href: "https://drive.google.com/file/d/1LPPsYJr6YqtBiNkhjJt0p8HPok-3OxCE/view?usp=sharing", label: 'Resume', external: true}
 ];
 
 export default function ContactSection() {
