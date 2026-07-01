@@ -6,6 +6,7 @@ export function useActiveNav(navHrefs: string[]) {
   const [activeId, setActiveId] = useState<string>("");
 
   useEffect(() => {
+    console.log(navHrefs);
     if (!("IntersectionObserver" in window)) return;
 
     const sections = navHrefs
@@ -20,7 +21,7 @@ export function useActiveNav(navHrefs: string[]) {
           }
         });
       },
-      { threshold: 0.45, rootMargin: "-20% 0px -45% 0px" }
+      { threshold: 0.45, rootMargin: "0px 0px -45% 0px" }
     );
 
     sections.forEach((section) => observer.observe(section));
